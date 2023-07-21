@@ -1,0 +1,9 @@
+controller-A controller is a component in an MVC (Model-View-Controller) structure that
+acts as the middle man between the Model and View. The controller's job is to take input 
+from the user, retrieve data from the model, and then pass that data to the view for 
+presentation to the user. The controller also passes any user input back to the model 
+to update any necessary data.
+
+
+
+
