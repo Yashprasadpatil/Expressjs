@@ -1,0 +1,66 @@
+/* Reset some default styles to ensure consistency */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  .main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .main-header__nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-header__item-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .main-header__item {
+    margin-right: 20px;
+  }
+  
+  .main-header__item:last-child {
+    margin-right: 0;
+  }
+  
+  /* Style the navigation links */
+  .main-header__item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .main-header__item a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the active link */
+  .main-header__item a.active {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+  }
+  
+  .my-products {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .products-list {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
